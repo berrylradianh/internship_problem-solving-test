@@ -27,9 +27,12 @@ func main() {
 		qty, _ := reader.ReadString('\n')
 		qty = strings.TrimSpace(qty)
 		n, _ := strconv.Atoi(qty)
-		function.Soloanes(n)
+		fmt.Println(function.Soloanes(n))
 	case "2":
-
+		scores := []int{100, 100, 50, 40, 40, 20, 10}
+		gitsScores := []int{5, 25, 50, 120}
+		result := function.DenseRanking(scores, gitsScores)
+		fmt.Println(result)
 	case "3":
 
 	default:

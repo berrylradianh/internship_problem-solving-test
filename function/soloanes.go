@@ -1,8 +1,8 @@
 package function
 
-import "fmt"
+// Buat fungsi untuk menyelesaikan rumus A000124 of Sloane’s OEIS!
 
-func Soloanes(n int) {
+func Soloanes(n int) []int {
 	var result []int
 
 	for i := 0; i < n; i++ {
@@ -10,5 +10,5 @@ func Soloanes(n int) {
 		result = append(result, formula)
 	}
 
-	fmt.Println(result)
+	return result
 }
