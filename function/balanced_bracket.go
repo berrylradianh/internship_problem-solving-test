@@ -1,5 +1,7 @@
 package function
 
+// Buat fungsi untuk menemukan Balanced Bracket dengan kompleksitas paling rendah!
+
 func BalancedBracket(s string) string {
 	stack := []int32{}
 

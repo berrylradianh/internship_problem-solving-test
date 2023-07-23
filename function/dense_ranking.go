@@ -1,6 +1,7 @@
 package function
 
 import (
+	"fmt"
 	"sort"
 )
 
@@ -46,6 +47,9 @@ func DenseRanking(scores []int, gitsScores []int) []int {
 			}
 		}
 	}
+
+	fmt.Println("Scores & Ranks {", rankMap, "}")
+	fmt.Println("Git Scores", gitsScores)
 
 	return gitsRanks
 }
