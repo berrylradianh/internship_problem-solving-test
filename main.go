@@ -34,7 +34,17 @@ func main() {
 		result := function.DenseRanking(scores, gitsScores)
 		fmt.Println(result)
 	case "3":
+		input1 := "{[()]}"
+		fmt.Println("Input 1:", input1)
+		fmt.Println("Output 1:", function.BalancedBracket(input1)) // Output: YES
 
+		input2 := "{[(])}"
+		fmt.Println("Input 2:", input2)
+		fmt.Println("Output 2:", function.BalancedBracket(input2)) // Output: NO
+
+		input3 := "{(([])[])[]}"
+		fmt.Println("Input 3:", input3)
+		fmt.Println("Output 3:", function.BalancedBracket(input3)) // Output: YES
 	default:
 		fmt.Println("Input yang anda masukkan salah!")
 	}
