@@ -2,21 +2,20 @@
 
 ## Soal 1
 Buatlah sebuah program dengan output sebagai berikut. Input bisa dinamis yang menghasilkan output yang berbeda-beda sesuai input yang dimasukan. Gunakan rumus A000124 of Sloane’s OEIS.
-Jawab : 
-![App Screenshot](screenshots/soloanes.png)
+> Jawab : 
+    ![App Screenshot](screenshots/soloanes.png)
 
 ## Soal 2
 Buat fungsi yang digunakan untuk menyelesaikan permasalahan Dense Ranking!
-Jawab : 
-![App Screenshot](screenshots/dense_ranking.png)
+> Jawab : 
+    ![App Screenshot](screenshots/dense_ranking.png)
 
 ## Soal 3
 1. Buat fungsi untuk menemukan Balanced Bracket dengan kompleksitas paling rendah!
     > Jawab : 
-    ![App Screenshot](screenshots/balanced_bracket.png)
+        ![App Screenshot](screenshots/balanced_bracket.png)
 2. Berapa ukuran kompleksitas kodinganmu? (cantumkan di README Repo)
-    > Jawab : 
-    - O(n), di mana n adalah panjang string s.
+    > Jawab :  O(n), di mana n adalah panjang string s.
 3. Jelaskan detail kompleksitas codingan Balanced Bracket Anda. (cantumkan di README Repo)
     > Jawab : 
     1. Pendeklarasian stack := []int32{} dan brackets := map[int32]int32{...} memiliki time complexity O(1) karena hanya dilakukan sekali pada awal fungsi.
